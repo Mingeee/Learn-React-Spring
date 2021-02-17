@@ -10,10 +10,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.wrapper}>
-        <div className={styles.link}>
-          <Link href={'./bouncingball'}>
-            Bouncing Ball
+        <div className={styles.listContainer}>
+          <div className={styles.link}>
+            <Link href={'./bouncingball'}>
+              Bouncing Ball
           </Link>
+          </div>
+
+          <div className={styles.link}>
+            <Link href={'./pullandput'}>
+              Pull and Put
+          </Link>
+          </div>
         </div>
       </main>
     </>
